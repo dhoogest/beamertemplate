@@ -1,4 +1,9 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% bug with TOC. run Make full for it to work
+%% Note: Use handout docclass to suppress overlays
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \documentclass{beamer}
+\documentclass[handout]{beamer}
 
 \documentclass{beamer}
 
@@ -6,7 +11,7 @@
 \usepackage[T1]{fontenc}
 \usetheme{hsrm}
 
-
+%% to split long titles, use \protect\\
 \title{Template Beamer Presentation}
 \subtitle{Subtitle}
 \author{Daniel R. Hoogestraat}
